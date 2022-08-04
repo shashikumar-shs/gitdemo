@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sockets</title>
+  </head>
+  <body>
+    <h1>Sockets</h1>
+    <div id='message-container'></div>
+    <form id='send-container'>
+      <input type='text' id='message-input'/>
+      <button type='submit' id='send-button'>Send</button>
+    </form>
+    <script src='https://cdn.socket.io/socket.io-3.0.1.min.js'></script>
+    <script>
+      const socket = io('http://localhost:4000/')
+      const messageContainer = document.getElementById('message-container')
