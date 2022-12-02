@@ -20,5 +20,13 @@ driver.findElement(By.xpath("(//input[@placeholder='Enter Customer Name'])[2]"))
 driver.findElement(By.xpath("//textarea[@placeholder='Enter Customer Description']")).sendKeys(desc);
 driver.findElement(By.xpath("//div[text()='Create Customer']")).click();
 }
-  
+  @Test
+  public void gitdemo()
+  {
+	  System.out.println("this is success");
+  }
+  public void gitdemo1()
+  {
+	  System.out.println("this is success1");
+  }
 }
